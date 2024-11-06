@@ -1,1 +1,8 @@
-export {default} from './index.js';
+import config from './index.js';
+
+export default [
+	...config,
+	{
+		ignores: ['*.d.ts'],
+	},
+];
