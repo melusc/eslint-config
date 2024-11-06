@@ -27,6 +27,9 @@
 	"license": "MIT",
 	"name": "@lusc/eslint-config",
 	"packageManager": "yarn@4.5.1",
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"fmt": "prettier -w .",
 		"lint": "eslint --fix"
