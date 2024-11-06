@@ -29,7 +29,7 @@
 	"packageManager": "yarn@4.5.1",
 	"scripts": {
 		"fmt": "prettier -w .",
-		"lint": "eslint --fix ."
+		"lint": "eslint --fix"
 	},
 	"type": "module"
 }

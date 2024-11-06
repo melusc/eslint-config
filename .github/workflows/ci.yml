@@ -1,0 +1,37 @@
+name: Run CI
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version:
+          - 23
+    name: Node ${{ matrix.node-version }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332 # v4
+
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          check-latest: true
+          node-version: ${{ matrix.node-version }}
+
+      - name: Enable corepack
+        run: corepack enable
+
+      - name: Install dependencies
+        run: yarn install --immutable
+
+      - name: Check code style
+        run: |
+          node --run fmt
+          node --run lint
+          git --no-pager diff --exit-code
