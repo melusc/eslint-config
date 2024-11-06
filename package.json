@@ -1,0 +1,5 @@
+{
+	"name": "@lusc/eslint-config",
+	"type": "module",
+	"packageManager": "yarn@4.5.1"
+}
