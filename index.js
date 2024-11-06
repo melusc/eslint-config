@@ -74,8 +74,8 @@ export default [
 				{
 					checksConditionals: true,
 					// Useful for event handlers
-					checksVoidReturn: false
-				}
+					checksVoidReturn: false,
+				},
 			],
 		},
 	},
