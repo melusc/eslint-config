@@ -88,6 +88,8 @@ export default [
 			'promise/prefer-await-to-then': 'error',
 			'promise/always-return': 'off',
 			'unicorn/no-null': 'off',
+			// Math.min and max don't support bigint, so ternary is necessary there
+			'unicorn/prefer-math-min-max': 'off',
 			'n/no-missing-import': 'off',
 			// Too many false positives
 			'@typescript-eslint/unbound-method': 'off',
