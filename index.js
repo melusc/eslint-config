@@ -71,6 +71,7 @@ export default [
 			'import-x/first': 'error',
 			'import-x/newline-after-import': 'error',
 			'import-x/no-unresolved': 'off',
+			'import-x/no-named-as-default-member': 'off',
 			'import-x/order': [
 				'error',
 				{
