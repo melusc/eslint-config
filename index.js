@@ -77,7 +77,6 @@ export default [
 				{
 					groups: ['builtin', 'external', 'parent', 'sibling', 'index'],
 					'newlines-between': 'always',
-					warnOnUnassignedImports: true,
 					alphabetize: {
 						order: 'asc',
 						caseInsensitive: true,
