@@ -70,6 +70,7 @@ export default [
 			'import-x/no-commonjs': 'error',
 			'import-x/first': 'error',
 			'import-x/newline-after-import': 'error',
+			'import-x/no-unresolved': 'off',
 			'import-x/order': [
 				'error',
 				{
