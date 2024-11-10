@@ -8,11 +8,13 @@ import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 import globals from 'globals';
 import {configs as tsConfigs} from 'typescript-eslint';
 
-const ignores = ['dist/**', '.svelte-kit/**', 'build/**'];
+const ignores = ['**/dist/', '**/.svelte-kit/', '**/build/'];
 
 export default [
 	{
 		ignores,
+	},
+	{
 		languageOptions: {
 			globals: {
 				...globals.browser,
