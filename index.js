@@ -48,10 +48,6 @@ export default [
 					caughtErrorsIgnorePattern: /^_$/.source,
 				},
 			],
-		},
-	},
-	{
-		rules: {
 			'promise/prefer-await-to-then': 'error',
 			'promise/always-return': 'off',
 			'unicorn/no-null': 'off',
@@ -103,6 +99,7 @@ export default [
 			],
 			'@typescript-eslint/unbound-method': 'off',
 			'@typescript-eslint/no-non-null-assertion': 'off',
+			'no-unused-vars': 'off',
 			'@typescript-eslint/no-unused-vars': [
 				'error',
 				{
