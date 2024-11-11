@@ -70,8 +70,6 @@ export default [
 			'import-x/no-commonjs': 'error',
 			'import-x/first': 'error',
 			'import-x/newline-after-import': 'error',
-			'import-x/no-unresolved': 'off',
-			'import-x/no-named-as-default-member': 'off',
 			'import-x/order': [
 				'error',
 				{
@@ -83,6 +81,10 @@ export default [
 					},
 				},
 			],
+			'import-x/no-named-as-default-member': 'off',
+			/* Typescript does these better */
+			'import-x/no-unresolved': 'off',
+			'import-x/default': 'off',
 		},
 	},
 	{
