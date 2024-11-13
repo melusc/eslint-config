@@ -27,7 +27,8 @@
 	},
 	"files": [
 		"*.js",
-		"*.d.ts"
+		"*.d.ts",
+		"configs/*.js"
 	],
 	"license": "MIT",
 	"name": "@lusc/eslint-config",
