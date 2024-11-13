@@ -4,6 +4,7 @@ import * as tsParser from '@typescript-eslint/parser';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 import nodePlugin from 'eslint-plugin-n';
 import pluginPromise from 'eslint-plugin-promise';
+import * as regexpPlugin from 'eslint-plugin-regexp';
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 import globals from 'globals';
 import {configs as tsConfigs} from 'typescript-eslint';
@@ -36,6 +37,7 @@ export default [
 	eslintPluginUnicorn.configs['flat/recommended'],
 	eslintPluginImportX.flatConfigs.recommended,
 	eslintPluginImportX.flatConfigs.typescript,
+	regexpPlugin.configs['flat/recommended'],
 	{
 		rules: {
 			'no-unused-vars': [
