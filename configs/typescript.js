@@ -1,7 +1,7 @@
 import tsEslint from 'typescript-eslint';
 
 /**
- * @param {readonly string[]} globs 
+ * @param {readonly string[]} globs
  */
 export default function typescript(globs) {
 	return [

@@ -12,9 +12,7 @@ import unicorn from './configs/unicorn.js';
 
 const ignores = ['**/dist/', '**/.svelte-kit/', '**/build/'];
 
-export function withOptions({
-	typescriptGlobs, 
-}) {
+export function withOptions({typescriptGlobs}) {
 	return [
 		{
 			ignores,
@@ -38,7 +36,7 @@ export function withOptions({
 		importConfig,
 		regexp,
 		typescript(typescriptGlobs),
-	].flat()
+	].flat();
 }
 
 export default withOptions({
