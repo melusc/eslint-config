@@ -12,27 +12,33 @@ import unicorn from './configs/unicorn.js';
 
 const ignores = ['**/dist/', '**/.svelte-kit/', '**/build/'];
 
-export default [
-	{
-		ignores,
-	},
-	{
-		languageOptions: {
-			globals: {
-				...globals.browser,
-				...globals.nodeBuiltin,
-			},
-			parser: tsParser,
-			ecmaVersion: 'latest',
-			sourceType: 'module',
+export function withOptions({typescriptGlobs}) {
+	return [
+		{
+			ignores,
 		},
-	},
-	eslint,
-	comments,
-	promise,
-	unicorn,
-	n,
-	importConfig,
-	regexp,
-	typescript,
-].flat();
+		{
+			languageOptions: {
+				globals: {
+					...globals.browser,
+					...globals.nodeBuiltin,
+				},
+				parser: tsParser,
+				ecmaVersion: 'latest',
+				sourceType: 'module',
+			},
+		},
+		eslint,
+		comments,
+		promise,
+		unicorn,
+		n,
+		importConfig,
+		regexp,
+		typescript(typescriptGlobs),
+	].flat();
+}
+
+export default withOptions({
+	typescriptGlobs: [],
+});
