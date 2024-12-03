@@ -10,7 +10,14 @@ import regexp from './configs/regexp.js';
 import typescript from './configs/typescript.js';
 import unicorn from './configs/unicorn.js';
 
-const ignores = ['**/dist/', '**/.svelte-kit/', '**/build/', '**/.yarn/'];
+const ignores = [
+	'**/dist/',
+	'**/.svelte-kit/',
+	'**/build/',
+	'**/.yarn/',
+	'**/.git/',
+	'**/node_modules/',
+];
 
 export function withOptions({typescriptGlobs}) {
 	return [
