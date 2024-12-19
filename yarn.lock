@@ -160,12 +160,12 @@ __metadata:
     "@typescript-eslint/parser": "npm:^8.18.1"
     eslint: "npm:^9.17.0"
     eslint-import-resolver-typescript: "npm:^3.7.0"
-    eslint-plugin-import-x: "npm:^4.5.1"
+    eslint-plugin-import-x: "npm:^4.6.0"
     eslint-plugin-n: "npm:^17.15.0"
     eslint-plugin-promise: "npm:^7.2.1"
     eslint-plugin-regexp: "npm:^2.7.0"
     eslint-plugin-unicorn: "npm:^56.0.1"
-    globals: "npm:^15.13.0"
+    globals: "npm:^15.14.0"
     prettier: "npm:^3.4.2"
     typescript: "npm:^5.7.2"
     typescript-eslint: "npm:^8.18.1"
@@ -684,9 +684,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import-x@npm:^4.5.1":
-  version: 4.5.1
-  resolution: "eslint-plugin-import-x@npm:4.5.1"
+"eslint-plugin-import-x@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "eslint-plugin-import-x@npm:4.6.0"
   dependencies:
     "@types/doctrine": "npm:^0.0.9"
     "@typescript-eslint/scope-manager": "npm:^8.1.0"
@@ -702,7 +702,7 @@ __metadata:
     tslib: "npm:^2.6.3"
   peerDependencies:
     eslint: ^8.57.0 || ^9.0.0
-  checksum: 10c0/8b674b7ed528e7694c4c51b78a333ec3a464d4c048755387526f1454a05f05ffc61a593aa8a52aaad1b991676be5e77cf6e4aca9d897dc58699d60370d7bd85c
+  checksum: 10c0/31e4535faaddf0ae2f7f9ae9f316666546ca9ca2b7fb9d4dd89f48cba561eacf8b0129721ae1468d08196b9c0265b099e8138024660b9b23c3cd63d088e02ea1
   languageName: node
   linkType: hard
 
@@ -1033,10 +1033,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^15.11.0, globals@npm:^15.13.0, globals@npm:^15.9.0":
-  version: 15.13.0
-  resolution: "globals@npm:15.13.0"
-  checksum: 10c0/640365115ca5f81d91e6a7667f4935021705e61a1a5a76a6ec5c3a5cdf6e53f165af7f9db59b7deb65cf2e1f83d03ac8d6660d0b14c569c831a9b6483eeef585
+"globals@npm:^15.11.0, globals@npm:^15.14.0, globals@npm:^15.9.0":
+  version: 15.14.0
+  resolution: "globals@npm:15.14.0"
+  checksum: 10c0/039deb8648bd373b7940c15df9f96ab7508fe92b31bbd39cbd1c1a740bd26db12457aa3e5d211553b234f30e9b1db2fee3683012f543a01a6942c9062857facb
   languageName: node
   linkType: hard
 
