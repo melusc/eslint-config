@@ -13,6 +13,12 @@ export default [
 					sortCharacterClasses: false,
 				},
 			],
+			'unicorn/no-useless-undefined': [
+				'error',
+				{
+					checkArguments: false,
+				},
+			],
 		},
 	},
 ];
