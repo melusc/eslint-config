@@ -21,6 +21,7 @@
 		"eslint": "^9.20.1"
 	},
 	"devDependencies": {
+		"@lusc/clean-package": "^1.0.0",
 		"eslint": "^9.20.1",
 		"prettier": "^3.5.1"
 	},
@@ -35,9 +36,6 @@
 	"license": "MIT",
 	"name": "@lusc/eslint-config",
 	"packageManager": "yarn@4.6.0",
-	"publishConfig": {
-		"access": "public"
-	},
 	"repository": {
 		"url": "https://github.com/melusc/eslint-config"
 	},
