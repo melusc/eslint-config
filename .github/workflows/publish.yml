@@ -17,6 +17,7 @@ jobs:
           check-latest: true
           registry-url: 'https://registry.npmjs.org'
       - run: corepack enable
+      - run: yarn install --immutable
       - run: yarn clean-package -- devDependencies scripts packageManager
       - run: npm publish --provenance --access public
         env:
