@@ -184,6 +184,7 @@ __metadata:
     eslint-plugin-n: "npm:^17.15.1"
     eslint-plugin-promise: "npm:^7.2.1"
     eslint-plugin-regexp: "npm:^2.7.0"
+    eslint-plugin-security: "npm:^3.0.1"
     eslint-plugin-unicorn: "npm:^56.0.1"
     globals: "npm:^15.15.0"
     prettier: "npm:^3.5.1"
@@ -769,6 +770,15 @@ __metadata:
   peerDependencies:
     eslint: ">=8.44.0"
   checksum: 10c0/c4882b441bab92e89c82cb27d6650540ad318750df5e99b42989f0fdf9ea381a9156de8470f1221483f98b5dc9cd6c493da73ccc18d94dee8d4a0f0ce78bd122
+  languageName: node
+  linkType: hard
+
+"eslint-plugin-security@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "eslint-plugin-security@npm:3.0.1"
+  dependencies:
+    safe-regex: "npm:^2.1.1"
+  checksum: 10c0/6b85feabe389b73e0a5961abfeac79214d61699249c990c9a66628a5e45870b49f1ab0be63223dfd75c4046ff9632f42a963790616f66e2c6d59b6c24643c5e0
   languageName: node
   linkType: hard
 
@@ -1600,7 +1610,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"regexp-tree@npm:^0.1.27":
+"regexp-tree@npm:^0.1.27, regexp-tree@npm:~0.1.1":
   version: 0.1.27
   resolution: "regexp-tree@npm:0.1.27"
   bin:
@@ -1673,6 +1683,15 @@ __metadata:
   dependencies:
     queue-microtask: "npm:^1.2.2"
   checksum: 10c0/200b5ab25b5b8b7113f9901bfe3afc347e19bb7475b267d55ad0eb86a62a46d77510cb0f232507c9e5d497ebda569a08a9867d0d14f57a82ad5564d991588b39
+  languageName: node
+  linkType: hard
+
+"safe-regex@npm:^2.1.1":
+  version: 2.1.1
+  resolution: "safe-regex@npm:2.1.1"
+  dependencies:
+    regexp-tree: "npm:~0.1.1"
+  checksum: 10c0/53eb5d3ecf4b3c0954dff465eb179af4d2f5f77f74ba7b57489adbc4fa44454c3d391f37379cd28722d9ac6fa5b70be3f4645d4bd25df395fd99b934f6ec9265
   languageName: node
   linkType: hard
 
