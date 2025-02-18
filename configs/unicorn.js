@@ -5,8 +5,6 @@ export default [
 	{
 		rules: {
 			'unicorn/no-null': 'off',
-			// Math.min and max don't support bigint, so ternary is necessary there
-			'unicorn/prefer-math-min-max': 'off',
 			'unicorn/better-regex': [
 				'error',
 				{
