@@ -2,7 +2,6 @@ import * as tsParser from '@typescript-eslint/parser';
 import globals from 'globals';
 
 import comments from './configs/comments.js';
-import css from './configs/css.js';
 import eslint from './configs/eslint.js';
 import importConfig from './configs/import.js';
 import n from './configs/n.js';
@@ -45,7 +44,6 @@ export function withOptions({typescriptGlobs}) {
 		importConfig,
 		regexp,
 		security,
-		css,
 		typescript(typescriptGlobs),
 	].flat();
 }
