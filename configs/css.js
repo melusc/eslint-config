@@ -4,9 +4,9 @@ const {rules, plugins} = css.configs.recommended;
 
 export default [
 	{
-		files: ["**/*.css"],
+		files: ['**/*.css'],
 		plugins,
-		language: "css/css",
+		language: 'css/css',
 		rules: {
 			...rules,
 			'css/require-baseline': [
@@ -15,6 +15,6 @@ export default [
 					available: 'newly',
 				},
 			],
-		}
+		},
 	},
 ];
