@@ -5,25 +5,25 @@
 	},
 	"dependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
-		"@eslint/js": "^9.27.0",
-		"@typescript-eslint/parser": "^8.32.1",
-		"eslint-import-resolver-typescript": "^4.4.0",
-		"eslint-plugin-import-x": "^4.13.1",
-		"eslint-plugin-n": "^17.18.0",
+		"@eslint/js": "^9.28.0",
+		"@typescript-eslint/parser": "^8.33.1",
+		"eslint-import-resolver-typescript": "^4.4.3",
+		"eslint-plugin-import-x": "^4.15.1",
+		"eslint-plugin-n": "^17.19.0",
 		"eslint-plugin-promise": "^7.2.1",
-		"eslint-plugin-regexp": "^2.7.0",
+		"eslint-plugin-regexp": "^2.8.0",
 		"eslint-plugin-security": "^3.0.1",
 		"eslint-plugin-unicorn": "^59.0.1",
 		"globals": "^16.2.0",
 		"typescript": "^5.8.3",
-		"typescript-eslint": "^8.32.1"
+		"typescript-eslint": "^8.33.1"
 	},
 	"peerDependencies": {
-		"eslint": "^9.27.0"
+		"eslint": "^9.28.0"
 	},
 	"devDependencies": {
 		"@lusc/clean-package": "^2.1.1",
-		"eslint": "^9.27.0",
+		"eslint": "^9.28.0",
 		"prettier": "^3.5.3"
 	},
 	"exports": {
@@ -36,7 +36,7 @@
 	],
 	"license": "MIT",
 	"name": "@lusc/eslint-config",
-	"packageManager": "yarn@4.9.1",
+	"packageManager": "yarn@4.9.2",
 	"repository": {
 		"url": "https://github.com/melusc/eslint-config"
 	},
