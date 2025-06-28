@@ -5,10 +5,10 @@
 	},
 	"dependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "^4.5.0",
-		"@eslint/js": "^9.29.0",
+		"@eslint/js": "^9.30.0",
 		"@typescript-eslint/parser": "^8.35.0",
 		"eslint-import-resolver-typescript": "^4.4.4",
-		"eslint-plugin-import-x": "^4.16.0",
+		"eslint-plugin-import-x": "^4.16.1",
 		"eslint-plugin-n": "^17.20.0",
 		"eslint-plugin-promise": "^7.2.1",
 		"eslint-plugin-regexp": "^2.9.0",
@@ -19,12 +19,12 @@
 		"typescript-eslint": "^8.35.0"
 	},
 	"peerDependencies": {
-		"eslint": "^9.29.0"
+		"eslint": "^9.30.0"
 	},
 	"devDependencies": {
 		"@lusc/clean-package": "^2.1.1",
-		"eslint": "^9.29.0",
-		"prettier": "^3.6.1"
+		"eslint": "^9.30.0",
+		"prettier": "^3.6.2"
 	},
 	"exports": {
 		".": "./index.js"
