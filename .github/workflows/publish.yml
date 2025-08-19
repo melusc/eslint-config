@@ -1,7 +1,8 @@
 name: Publish Package to npmjs
 on:
   push:
-    tags: '*'
+    tags:
+      - '*'
 
 jobs:
   build:
@@ -19,6 +20,5 @@ jobs:
       - run: corepack enable
       - run: yarn install --immutable
       - run: yarn clean-package -- devDependencies scripts packageManager
-      - run: npm publish --provenance --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm install -g npm@latest
+      - run: npm publish --access public
