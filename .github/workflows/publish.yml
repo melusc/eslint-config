@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 24
       - run: corepack enable
-      - run: yarn install --immutable
-      - run: yarn clean-package -- devDependencies scripts packageManager
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm clean-package -- devDependencies scripts packageManager
       - run: npm install -g npm@latest
       - run: npm publish --access public
