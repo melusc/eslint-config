@@ -41,7 +41,7 @@
 		"url": "https://github.com/melusc/eslint-config"
 	},
 	"engines": {
-		"node": "^22.14.0 || ^23.10.0"
+		"node": "^22.14.0 || ^23.10.0 || ^24.7.0"
 	},
 	"scripts": {
 		"fmt": "prettier -w .",
