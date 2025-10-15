@@ -22,7 +22,7 @@
 		"eslint": "^9.37.0"
 	},
 	"devDependencies": {
-		"@lusc/clean-package": "^2.2.0",
+		"@lusc/clean-package": "^3.0.0",
 		"eslint": "^9.37.0",
 		"prettier": "^3.6.2"
 	},
