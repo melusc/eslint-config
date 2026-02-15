@@ -7,7 +7,6 @@ import importConfig from './configs/import.js';
 import n from './configs/n.js';
 import promise from './configs/promise.js';
 import regexp from './configs/regexp.js';
-import security from './configs/security.js';
 import typescript from './configs/typescript.js';
 import unicorn from './configs/unicorn.js';
 
@@ -43,7 +42,6 @@ export function withOptions({typescriptGlobs}) {
 		n,
 		importConfig,
 		regexp,
-		security,
 		typescript(typescriptGlobs),
 	].flat();
 }
