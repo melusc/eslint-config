@@ -4,25 +4,25 @@
 		"url": "https://github.com/melusc"
 	},
 	"dependencies": {
-		"@eslint-community/eslint-plugin-eslint-comments": "^4.6.0",
+		"@eslint-community/eslint-plugin-eslint-comments": "^4.7.1",
 		"@eslint/js": "^10.0.1",
-		"@typescript-eslint/parser": "^8.55.0",
+		"@typescript-eslint/parser": "^8.56.1",
 		"eslint-import-resolver-typescript": "^4.4.4",
 		"eslint-plugin-import-x": "^4.16.1",
-		"eslint-plugin-n": "^17.23.2",
+		"eslint-plugin-n": "^17.24.0",
 		"eslint-plugin-promise": "^7.2.1",
 		"eslint-plugin-regexp": "^3.0.0",
 		"eslint-plugin-unicorn": "^63.0.0",
-		"globals": "^17.3.0",
+		"globals": "^17.4.0",
 		"typescript": "^5.9.3",
-		"typescript-eslint": "^8.55.0"
+		"typescript-eslint": "^8.56.1"
 	},
 	"peerDependencies": {
-		"eslint": "^10.0.0"
+		"eslint": "^10.0.2"
 	},
 	"devDependencies": {
 		"@lusc/clean-package": "^3.0.0",
-		"eslint": "^10.0.0",
+		"eslint": "^10.0.2",
 		"prettier": "^3.8.1"
 	},
 	"exports": {
@@ -35,7 +35,7 @@
 	],
 	"license": "MIT",
 	"name": "@lusc/eslint-config",
-	"packageManager": "pnpm@10.29.3+sha512.498e1fb4cca5aa06c1dcf2611e6fafc50972ffe7189998c409e90de74566444298ffe43e6cd2acdc775ba1aa7cc5e092a8b7054c811ba8c5770f84693d33d2dc",
+	"packageManager": "pnpm@10.30.3+sha512.c961d1e0a2d8e354ecaa5166b822516668b7f44cb5bd95122d590dd81922f606f5473b6d23ec4a5be05e7fcd18e8488d47d978bbe981872f1145d06e9a740017",
 	"repository": {
 		"url": "https://github.com/melusc/eslint-config"
 	},
