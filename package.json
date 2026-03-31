@@ -46,6 +46,6 @@
 		"fmt": "prettier -w .",
 		"lint": "eslint --fix"
 	},
-	"version": "9.0.0",
+	"version": "10.0.0",
 	"type": "module"
 }
