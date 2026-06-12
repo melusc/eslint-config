@@ -5,12 +5,6 @@ export default [
 	{
 		rules: {
 			'unicorn/no-null': 'off',
-			'unicorn/better-regex': [
-				'error',
-				{
-					sortCharacterClasses: false,
-				},
-			],
 			'unicorn/no-useless-undefined': [
 				'error',
 				{
