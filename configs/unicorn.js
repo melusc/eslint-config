@@ -11,6 +11,8 @@ export default [
 					checkArguments: false,
 				},
 			],
+			'unicorn/no-top-level-assignment-in-function': 'off',
+			'unicorn/consistent-boolean-name': 'off',
 		},
 	},
 ];
