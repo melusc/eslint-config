@@ -14,6 +14,7 @@ export default [
 			'unicorn/no-top-level-assignment-in-function': 'off',
 			'unicorn/consistent-boolean-name': 'off',
 			'unicorn/comment-content': 'off',
+			'unicorn/no-non-function-verb-prefix': 'off',
 		},
 	},
 ];
