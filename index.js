@@ -1,4 +1,5 @@
 import * as tsParser from '@typescript-eslint/parser';
+import {globalIgnores} from 'eslint/config';
 import globals from 'globals';
 
 import comments from './configs/comments.js';
@@ -21,9 +22,7 @@ const ignores = [
 
 export function withOptions({typescriptGlobs}) {
 	return [
-		{
-			ignores,
-		},
+		globalIgnores(ignores, '@lusc/eslint-config global ignores'),
 		{
 			languageOptions: {
 				globals: {
