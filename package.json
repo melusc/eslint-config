@@ -9,21 +9,21 @@
 		"@typescript-eslint/parser": "^8.62.0",
 		"eslint-import-resolver-typescript": "^4.4.5",
 		"eslint-plugin-import-x": "^4.17.0",
-		"eslint-plugin-n": "^18.1.0",
+		"eslint-plugin-n": "^18.2.1",
 		"eslint-plugin-promise": "^7.3.0",
-		"eslint-plugin-regexp": "^3.1.0",
+		"eslint-plugin-regexp": "^3.1.1",
 		"eslint-plugin-unicorn": "^69.0.0",
 		"globals": "^17.7.0",
 		"typescript": "^6.0.3",
 		"typescript-eslint": "^8.62.0"
 	},
 	"peerDependencies": {
-		"eslint": "^10.5.0"
+		"eslint": "^10.6.0"
 	},
 	"devDependencies": {
 		"@lusc/clean-package": "^3.0.2",
-		"eslint": "^10.5.0",
-		"prettier": "^3.8.4"
+		"eslint": "^10.6.0",
+		"prettier": "^3.9.1"
 	},
 	"exports": {
 		".": "./index.js"
@@ -35,7 +35,7 @@
 	],
 	"license": "MIT",
 	"name": "@lusc/eslint-config",
-	"packageManager": "pnpm@11.8.0",
+	"packageManager": "pnpm@11.9.0",
 	"repository": {
 		"url": "https://github.com/melusc/eslint-config"
 	},
