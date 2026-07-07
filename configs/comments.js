@@ -1,3 +1,4 @@
 import comments from '@eslint-community/eslint-plugin-eslint-comments/configs';
+import {defineConfig} from 'eslint/config';
 
-export default [comments.recommended];
+export default defineConfig([comments.recommended]);

@@ -1,6 +1,7 @@
 import js from '@eslint/js';
+import {defineConfig} from 'eslint/config';
 
-export default [
+export default defineConfig([
 	js.configs.recommended,
 	{
 		rules: {
@@ -25,4 +26,4 @@ export default [
 			eqeqeq: ['error', 'always'],
 		},
 	},
-];
+]);

@@ -1,6 +1,7 @@
+import {defineConfig} from 'eslint/config';
 import pluginPromise from 'eslint-plugin-promise';
 
-export default [
+export default defineConfig([
 	pluginPromise.configs['flat/recommended'],
 	{
 		rules: {
@@ -8,4 +9,4 @@ export default [
 			'promise/always-return': 'off',
 		},
 	},
-];
+]);

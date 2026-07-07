@@ -1,6 +1,7 @@
+import {defineConfig} from 'eslint/config';
 import eslintPluginImportX from 'eslint-plugin-import-x';
 
-export default [
+export default defineConfig([
 	eslintPluginImportX.flatConfigs.recommended,
 	eslintPluginImportX.flatConfigs.typescript,
 	{
@@ -27,4 +28,4 @@ export default [
 			'import-x/default': 'off',
 		},
 	},
-];
+]);

@@ -1,6 +1,7 @@
+import {defineConfig} from 'eslint/config';
 import nodePlugin from 'eslint-plugin-n';
 
-export default [
+export default defineConfig([
 	nodePlugin.configs['flat/recommended'],
 	{
 		rules: {
@@ -10,4 +11,4 @@ export default [
 			'n/prefer-node-protocol': 'error',
 		},
 	},
-];
+]);

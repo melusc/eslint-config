@@ -1,10 +1,11 @@
+import {defineConfig} from 'eslint/config';
 import tsEslint from 'typescript-eslint';
 
 /**
  * @param {readonly string[]} globs
  */
 export default function typescript(globs) {
-	return [
+	return defineConfig([
 		...tsEslint.configs.strictTypeChecked,
 		{
 			languageOptions: {
@@ -44,7 +45,7 @@ export default function typescript(globs) {
 				],
 			},
 		},
-	].map(config => ({
+	]).map(config => ({
 		...config,
 		files: ['**/*.ts', '**/*.tsx', '**/*.mts', '**/*.cts', ...globs],
 	}));

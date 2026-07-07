@@ -1,3 +1,4 @@
+import {defineConfig} from 'eslint/config';
 import * as regexpPlugin from 'eslint-plugin-regexp';
 
-export default [regexpPlugin.configs.recommended];
+export default defineConfig([regexpPlugin.configs.recommended]);
