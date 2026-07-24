@@ -6,7 +6,7 @@
 	"dependencies": {
 		"@eslint-community/eslint-plugin-eslint-comments": "^4.7.2",
 		"@eslint/js": "^10.0.1",
-		"@typescript-eslint/parser": "^8.64.0",
+		"@typescript-eslint/parser": "^8.65.0",
 		"eslint-import-resolver-typescript": "^4.4.5",
 		"eslint-node-test": "^0.3.0",
 		"eslint-plugin-import-x": "^4.17.1",
@@ -16,7 +16,7 @@
 		"eslint-plugin-unicorn": "^72.0.0",
 		"globals": "^17.7.0",
 		"typescript": "^6.0.3",
-		"typescript-eslint": "^8.64.0"
+		"typescript-eslint": "^8.65.0"
 	},
 	"peerDependencies": {
 		"eslint": "^10.7.0"
@@ -24,7 +24,7 @@
 	"devDependencies": {
 		"@lusc/clean-package": "^3.0.2",
 		"eslint": "^10.7.0",
-		"prettier": "^3.9.5"
+		"prettier": "^3.9.6"
 	},
 	"exports": {
 		".": "./index.js"
@@ -36,7 +36,7 @@
 	],
 	"license": "MIT",
 	"name": "@lusc/eslint-config",
-	"packageManager": "pnpm@11.11.0",
+	"packageManager": "pnpm@11.15.1",
 	"repository": {
 		"url": "https://github.com/melusc/eslint-config"
 	},
