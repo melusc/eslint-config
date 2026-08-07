@@ -23,7 +23,7 @@ export default defineConfig([
 			],
 			'import-x/no-named-as-default-member': 'off',
 			'import-x/no-named-as-default': 'off',
-			/* TypeScript does these better */
+			// TypeScript does these better
 			'import-x/no-unresolved': 'off',
 			'import-x/default': 'off',
 		},
