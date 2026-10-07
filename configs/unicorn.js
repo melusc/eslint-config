@@ -16,6 +16,8 @@ export default defineConfig([
 			'unicorn/consistent-boolean-name': 'off',
 			'unicorn/comment-content': 'off',
 			'unicorn/no-non-function-verb-prefix': 'off',
+			'unicorn/no-top-level-side-effects': 'off',
+			'unicorn/no-asterisk-prefix-in-documentation-comments': 'off',
 		},
 	},
 ]);
